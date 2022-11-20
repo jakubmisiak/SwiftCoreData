@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		912C18E62922B78100ED6961 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912C18E52922B78100ED6961 /* DataController.swift */; };
+		912C18EA2922BCD400ED6961 /* AddTravelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912C18E92922BCD400ED6961 /* AddTravelView.swift */; };
+		912C18EC2922D1AA00ED6961 /* TravelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912C18EB2922D1AA00ED6961 /* TravelView.swift */; };
+		914496542926B570000315D5 /* TravelAttributeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914496532926B570000315D5 /* TravelAttributeView.swift */; };
+		914496562926B7B0000315D5 /* DateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914496552926B7B0000315D5 /* DateView.swift */; };
+		914496582926BDE2000315D5 /* AddDestinationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914496572926BDE2000315D5 /* AddDestinationView.swift */; };
 		91F5EAA22917A38D0057A346 /* CoreDataAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F5EAA12917A38D0057A346 /* CoreDataAppApp.swift */; };
 		91F5EAA42917A38D0057A346 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F5EAA32917A38D0057A346 /* ContentView.swift */; };
 		91F5EAA62917A38E0057A346 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91F5EAA52917A38E0057A346 /* Assets.xcassets */; };
 		91F5EAA92917A38E0057A346 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91F5EAA82917A38E0057A346 /* Preview Assets.xcassets */; };
-		91F5EAAB2917A38E0057A346 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F5EAAA2917A38E0057A346 /* Persistence.swift */; };
 		91F5EAAE2917A38E0057A346 /* CoreDataApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 91F5EAAC2917A38E0057A346 /* CoreDataApp.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		912C18E52922B78100ED6961 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		912C18E92922BCD400ED6961 /* AddTravelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTravelView.swift; sourceTree = "<group>"; };
+		912C18EB2922D1AA00ED6961 /* TravelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelView.swift; sourceTree = "<group>"; };
+		914496532926B570000315D5 /* TravelAttributeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelAttributeView.swift; sourceTree = "<group>"; };
+		914496552926B7B0000315D5 /* DateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateView.swift; sourceTree = "<group>"; };
+		914496572926BDE2000315D5 /* AddDestinationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDestinationView.swift; sourceTree = "<group>"; };
 		91F5EA9E2917A38D0057A346 /* CoreDataApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91F5EAA12917A38D0057A346 /* CoreDataAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataAppApp.swift; sourceTree = "<group>"; };
 		91F5EAA32917A38D0057A346 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		91F5EAA52917A38E0057A346 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91F5EAA82917A38E0057A346 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		91F5EAAA2917A38E0057A346 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		91F5EAAD2917A38E0057A346 /* CoreDataApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataApp.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -36,6 +46,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		912C18E72922BC6900ED6961 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				91F5EAA32917A38D0057A346 /* ContentView.swift */,
+				912C18E92922BCD400ED6961 /* AddTravelView.swift */,
+				912C18EB2922D1AA00ED6961 /* TravelView.swift */,
+				914496532926B570000315D5 /* TravelAttributeView.swift */,
+				914496552926B7B0000315D5 /* DateView.swift */,
+				914496572926BDE2000315D5 /* AddDestinationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		912C18E82922BC8600ED6961 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				91F5EAAC2917A38E0057A346 /* CoreDataApp.xcdatamodeld */,
+				912C18E52922B78100ED6961 /* DataController.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
 		91F5EA952917A38D0057A346 = {
 			isa = PBXGroup;
 			children = (
@@ -55,11 +87,10 @@
 		91F5EAA02917A38D0057A346 /* CoreDataApp */ = {
 			isa = PBXGroup;
 			children = (
-				91F5EAA12917A38D0057A346 /* CoreDataAppApp.swift */,
-				91F5EAA32917A38D0057A346 /* ContentView.swift */,
+				912C18E82922BC8600ED6961 /* DataModel */,
 				91F5EAA52917A38E0057A346 /* Assets.xcassets */,
-				91F5EAAA2917A38E0057A346 /* Persistence.swift */,
-				91F5EAAC2917A38E0057A346 /* CoreDataApp.xcdatamodeld */,
+				912C18E72922BC6900ED6961 /* Views */,
+				91F5EAA12917A38D0057A346 /* CoreDataAppApp.swift */,
 				91F5EAA72917A38E0057A346 /* Preview Content */,
 			);
 			path = CoreDataApp;
@@ -143,10 +174,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				912C18EA2922BCD400ED6961 /* AddTravelView.swift in Sources */,
+				914496542926B570000315D5 /* TravelAttributeView.swift in Sources */,
+				914496562926B7B0000315D5 /* DateView.swift in Sources */,
+				912C18E62922B78100ED6961 /* DataController.swift in Sources */,
 				91F5EAAE2917A38E0057A346 /* CoreDataApp.xcdatamodeld in Sources */,
-				91F5EAAB2917A38E0057A346 /* Persistence.swift in Sources */,
 				91F5EAA42917A38D0057A346 /* ContentView.swift in Sources */,
+				912C18EC2922D1AA00ED6961 /* TravelView.swift in Sources */,
 				91F5EAA22917A38D0057A346 /* CoreDataAppApp.swift in Sources */,
+				914496582926BDE2000315D5 /* AddDestinationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
